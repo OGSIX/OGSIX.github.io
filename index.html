@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducki Coin</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('ducki.png');
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.8);
+        }
+
+        .content {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .top,
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .text {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive design for phones */
+        @media (max-width: 768px) {
+            .content {
+                justify-content: flex-start;
+            }
+
+            .top,
+            .bottom {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .text {
+                font-size: 36px;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <div class="top">
+            <div class="text"><a href="https://t.me/Duckicoinn" target="_blank">TELEGRAM</a></div>
+            <div class="text"><a href="https://x.com/DUCKICOIN" target="_blank">TWITTER/X</a></div>
+        </div>
+        <div class="bottom">
+            <div class="text"><a href="https://www.instagram.com/ducki_coin/" target="_blank">INSTAGRAM</a></div>
+            <div class="text"><a href="######################" target="_blank">PUMP.FUN</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
